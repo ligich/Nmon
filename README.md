@@ -10,7 +10,8 @@ How it works ?
 
 The module is mainly articulated around a modified version of python-nmap made by Alexandre Norman http://code.google.com/p/python-nmap/.
 Indeed I needed to gather the hole nmap output MAC, OS, and services included whereas it is not possible for now.
-So basically you just need to do:
+So basically you just need to do the following.
+
     import nmon
     nmon.runMonitor(“192.168.0.*”)
 
